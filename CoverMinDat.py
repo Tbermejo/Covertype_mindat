@@ -235,7 +235,7 @@ elif capitulo == "Modelos de Clasificación":
     """)
     
     img = Image.open("Imagen_rendimiento_modelo_redes.jpeg")
-    img1 = Image.open("Estructura_modelo_redes.png")
+    img1 = Image.open("nuevo modelo.jpeg")
     
     st.image(img, caption="Gráfico de entrenamiento y validación del modelo", use_container_width=True)
     st.write("Estructura del modelo:")
